@@ -1,6 +1,11 @@
 *{
     margin: 0;
 }
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 header{
     background-image: url(content/img/fej-kar06.gif);
     background-size: cover;
@@ -17,4 +22,7 @@ header h1{
     color: red;
     font-size: 3em;
     font-family: "Style Script";
+}
+main{
+    width: 80%;
 }
