@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--primary-tan);
 }
 header{
     background-image: url(content/img/fej-kar06.gif);
@@ -25,10 +26,22 @@ header{
 }
 header h1{
     text-align: center;
-    color: red;
+    color: var(--primary-red);
     font-size: 3em;
     font-family: "Style Script";
 }
 main{
     width: 80%;
+    background-color: var(--primary-tan);
+}
+main div{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+#type2{
+    flex-direction: row-reverse;
+}
+main div img{
+    width: 500px;
 }
